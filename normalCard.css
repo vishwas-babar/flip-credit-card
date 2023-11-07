@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html, body{
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(140deg, rgb(121, 82, 82), rgb(167, 167, 185), rgb(4, 14, 4))
+}
+
+section{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    height: 250px;
+    width: 400px;
+    border-radius: 15px;
+    background:url(images/bg.png);
+    overflow: hidden;
+    color: white;
+}
+
+.card-header{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    justify-content: start;
+}
+
+.card-header .logo {
+    height: 35px;
+    width: auto;
+}
+
+.card-header h5{
+    width: 200px;
+    margin-left: 10px;
+    font-weight: 200;
+    font-size: 16px;
+}
+.card-header .chip{
+    height: 35px;
+    width: auto;
+    margin-left: 30px;
+}
+
+.card-details{
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-left:25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-number-text{
+    font-weight: 300;
+    font-size: 8px;
+    
+}
+
+.card-number{
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.name{
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.expire-date{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-right: 10px;
+}
+
+.expire-date h6 {
+    font-weight: 300;
+    font-size: 8px;
+}
+
+.expire-date h5{
+    font-weight: 300;
+    font-size: 16px;
+}

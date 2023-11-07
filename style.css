@@ -194,7 +194,7 @@ section::after{
 
 .white-barcode .front{
     height: 150%;
-    width: 80%;
+    width: 90%;
     background-color: #caddd7;
     border-radius: 5px;
     overflow: hidden;
@@ -215,4 +215,27 @@ section::after{
     margin: 30px 25px;
     font-weight: 300;
     line-height: 1.5;
+}
+
+button{
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    padding:10px 20px;
+    border-radius: 10px;
+    border:2px solid white ;
+    background: linear-gradient(90deg, #9c27b0, #f3f5f5);
+    transition: all 0.8s ease;
+}
+
+button:hover{
+    background: linear-gradient(135deg, #1a141b, #839c9c);
+}
+
+.white-barcode i{
+    position: relative;
+    right: 1px;
+    margin-left: 5 px;
+    color: #1a141b;
+    font-size: 12px;
 }
